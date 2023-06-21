@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.inicio_header{
+    justify-content: space-between;
+    display: flex;
+}
+.inicio_section{
+    color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}	
+.inicio_footer{
+    text-align: center;
+    font-family:Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 31px;
+    color: black;
+    
+
+}
+#enlace{
+    color:white;
+    border: solid black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 5px;
+}
+nav{
+    margin: 20px;
+    text-align: right;
+    float: right;
+    width: 50%;
+}
+#nav_enlace{
+    font-family:Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    margin: 6px;
+    color: blueviolet;
+    
+}
+.Logo{
+    margin: 10px;
+}
+#img{
+    border-radius: 12px;
+    border: 1px;
+    height: 60px;
+    width:  60px;
+}
+#title{
+    font-size: 50px;
+    font-family: 'Pacifico';
+    text-decoration: 0;
+}
+#bienvenida{
+    font-size: 30px;
+    font-family: 'Pacifico';
+}
+#saludo{
+    font-size: 40px;
+    font-family: 'Pacifico';
+}
+.fondo{
+    background: linear-gradient(30deg,
+    purple,
+    black);
+    
+    
+}
+.form-register {
+    width: 400px;
+    background: #1b1b1b;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+}  
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Pacifico',cursive;
+}
+
+.controls {
+    width: 100%;
+    background: #1d1d1d;
+    padding: 7px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid purple;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p {
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+color: white;
+text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #525252;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+#enlace:hover{
+    color: #525252;
+}
+#nav_enlace:hover{
+    color: white;
+}
+.nosotros{
+    display: flex;
+    flex: row;
+    margin: 50px;
+}
+#titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Pacifico',cursive;
+    color: white;
+    text-shadow: 7px 13px 37px #000;
+}
+#images{
+    border: solid 2px black ;
+    background-color: #525252;
+    padding: 10px;
+    box-shadow: 7px 13px 37px #000;
+}
+.nosotros p{
+    margin: 15px;
+    color: white;
+}
